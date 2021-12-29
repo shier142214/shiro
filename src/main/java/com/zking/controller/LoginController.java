@@ -20,6 +20,7 @@ public class LoginController {
     @RequiresPermissions("书本修改")
     @RequestMapping("/update")
     public String updateUser(){
+        //上传测试
         return "admin/updateUser";
     }
 
